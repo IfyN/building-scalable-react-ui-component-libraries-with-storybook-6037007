@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Building Scalable React UI Component Libraries with Storybook
+This is the repository for the LinkedIn Learning course `Building Scalable React UI Component Libraries with Storybook`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
