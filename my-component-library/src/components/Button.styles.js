@@ -1,53 +1,63 @@
 import styled, { css } from "styled-components";
+import { themeToken } from "../themeToken";
 
 const variantStyles = {
   primary: css`
-    background-color: #3182ce;
-    color: white;
+    background-color: ${themeToken.colors.button.primaryBg};
+    color: ${themeToken.colors.button.primaryText};
     border: none;
     &:hover:enabled {
-      background-color: #2b6cb0;
+      background-color: ${themeToken.colors.button.primaryHover};
     }
   `,
   secondary: css`
-    background-color: #e2e8f0;
-    color: #2d3748;
+    background-color: ${themeToken.colors.button.secondaryBg};
+    color: ${themeToken.colors.button.secondaryText};
     border: none;
     &:hover:enabled {
-      background-color: #cbd5e1;
+      background-color: ${themeToken.colors.button.secondaryHover};
     }
   `,
   outline: css`
-    background-color: transparent;
-    color: #3182ce;
-    border: 2px solid #3182ce;
+    background-color: ${themeToken.colors.button.outlineBg};
+    color: ${themeToken.colors.button.outlineText};
+    border: 2px solid ${themeToken.colors.button.outlineBorder};
     &:hover:enabled {
-      background-color: #ebf8ff;
+      background-color: ${themeToken.colors.button.outlineHover};
+    }
+  `,
+  ghost: css`
+    background-color: transparent;
+    color: ${themeToken.colors.button.outlineText};
+    border: none;
+    &:hover:enabled {
+      background-color: ${themeToken.colors.gray100};
     }
   `,
 };
 
 const sizeStyles = {
   sm: css`
-    padding: 4px 12px;
-    font-size: 14px;
+    padding: ${themeToken.spacing.xs} ${themeToken.spacing.sm};
+    font-size: ${themeToken.fontSize.sm};
+    border-radius: ${themeToken.borderRadius.sm};
   `,
   md: css`
-    padding: 8px 20px;
-    font-size: 16px;
+    padding: ${themeToken.spacing.sm} ${themeToken.spacing.md};
+    font-size: ${themeToken.fontSize.md};
+    border-radius: ${themeToken.borderRadius.md};
   `,
-   lg: css`
-    padding: 12px 28px;
-    font-size: 18px;
+  lg: css`
+    padding: ${themeToken.spacing.md} ${themeToken.spacing.lg};
+    font-size: ${themeToken.fontSize.lg};
+    border-radius: ${themeToken.borderRadius.lg};
   `,
 };
 
 
 export const StyledButton = styled.button`
-  border-radius: 4px;
-  cursor: pointer;
   transition: background-color 0.2s;
-
+  cursor: pointer;
   ${(props) => variantStyles[props.$variant || "primary"]}
   ${(props) => sizeStyles[props.$size || "md"]}
 `;
