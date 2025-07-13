@@ -3,6 +3,7 @@ import Button from "../components/Button";
 export default {
   title: "Components/Button",
   component: Button,
+  tags: ['autodocs']
 };
 
 export const Primary = {
