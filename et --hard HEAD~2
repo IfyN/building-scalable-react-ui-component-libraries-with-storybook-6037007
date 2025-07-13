@@ -1,0 +1,78 @@
+[33mcommit 8c6f2f8429374ffe2a3ffd1f1937b45ae67ea54e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32m03_05b[m[33m, [m[1;31morigin/03_05b[m[33m)[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Sun Jul 13 16:57:49 2025 +0000
+
+    refactor: add design token styles to button styles
+
+[33mcommit bc4e5fa3a1490d447eb075ec143d29d25a4a56f1[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Sun Jul 13 16:57:28 2025 +0000
+
+    feature: add design tokens file
+
+[33mcommit ba824fc5edbdd83da9d004eec95013bd9f7625fa[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Sun Jul 13 14:19:02 2025 +0000
+
+    feature: add stories for alert component
+
+[33mcommit 0bfc88ce6de30c93b3a89e9e82792ca96781ad1e[m[33m ([m[1;31morigin/03_03b[m[33m, [m[1;32m03_04b[m[33m, [m[1;32m03_04a[m[33m, [m[1;32m03_03b[m[33m)[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Sun Jul 13 13:06:37 2025 +0000
+
+    feature: add button stories files
+
+[33mcommit 778f7c49de4ed13b1c65bc4e3ab835e635d9fc3d[m[33m ([m[1;31morigin/03_02a[m[33m, [m[1;31morigin/02_05b[m[33m, [m[1;32m03_02a[m[33m)[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Wed Jul 9 01:59:17 2025 +0000
+
+    feat(components): add Alert component to the library
+
+[33mcommit 8e786b9b6b7eab5a9a7e419b38c5d4d8f6b919f6[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Wed Jul 9 01:58:35 2025 +0000
+
+    chore: update dependencies in package.json and modify main.js for initialization
+
+[33mcommit 450eb5f98ac24949af567e780d4c6ade99ccbcd1[m[33m ([m[1;31morigin/02_05a[m[33m, [m[1;31morigin/02_04a[m[33m, [m[1;31morigin/02_03b[m[33m)[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Tue Jul 1 22:48:07 2025 +0000
+
+    create button component
+
+[33mcommit 1482718fcd8415148efa7bc1a93764bac0729b70[m[33m ([m[1;31morigin/02_03a[m[33m)[m
+Merge: 30b432e 7a9842f
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Tue Jul 1 12:21:38 2025 +0000
+
+    Merge branch '02_03a' of https://github.com/IfyN/building-scalable-react-ui-component-libraries-with-storybook-6037007 into 02_03a
+
+[33mcommit 30b432e3a57668a3506fd3babbd659c56cedb972[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Tue Jul 1 12:20:25 2025 +0000
+
+    init
+
+[33mcommit 7a9842ffcb418b2f570c437494d3bda5d1638182[m[33m ([m[1;31morigin/02_02b[m[33m)[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Tue Jul 1 11:34:36 2025 +0000
+
+    rename file ext
+
+[33mcommit 55278a4191b7f3d539949aed5fe23692bc795bda[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Fri Jun 27 20:44:49 2025 +0000
+
+    install storybook
+
+[33mcommit 5e336508840183062fde0297c23460c4e62e43c9[m[33m ([m[1;31morigin/02_01b[m[33m)[m
+Author: Ifeoma N. <31158530+IfyN@users.noreply.github.com>
+Date:   Fri Jun 20 15:45:26 2025 +0000
+
+    install project dependencies
+
+[33mcommit 955e6e8a473d1467ff156f917d9b006b653bc358[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31morigin/02_01a[m[33m)[m
+Author: linkedin-mh <136492005+linkedin-mh@users.noreply.github.com>
+Date:   Tue Feb 18 21:40:03 2025 -0800
+
+    Initial commit
