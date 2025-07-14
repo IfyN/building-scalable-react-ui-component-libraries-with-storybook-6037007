@@ -3,7 +3,41 @@ import Alert from "../components/Alert";
 export default {
   title: "Components/Alert",
   component: Alert,
-  tags: ['autodocs']
+  tags: ['autodocs'],
+  argTypes: {
+    //describe type prop
+    type: {
+      control: {type: "select"},
+      options: ["info", "success", "warning", "error"],
+      description: "The style of the alert"
+    },
+    //describe message prop
+    // This prop is required, so we don't set defaultValue
+    message: {
+      control: {type: "text"},
+      description: "The message to display in the alert"
+    },
+    
+  },
+  parameters: {
+    docs: {
+      description: {
+        component: `
+The **Alert** component displays important messages to users.  
+It supports four types: \`info\`, \`success\`, \`warning\`, and \`error\`.
+
+**Props:**
+- \`message\` (string, required): The message to display.
+- \`type\` (string, optional): The alert style. One of \`info\`, \`success\`, \`warning\`, or \`error\`. Defaults to \`info\`.
+
+**Usage:**
+\`\`\`jsx
+<Alert type="success" message="Your action was successful!" onClose={() => {}} />
+\`\`\`
+        `,
+      },
+    },
+  },
 };
 
 export const Info = {
